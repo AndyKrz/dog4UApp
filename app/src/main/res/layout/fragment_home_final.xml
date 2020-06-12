@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:andoid="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:id="@+id/site">
+
+    <com.google.android.material.tabs.TabLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabLayout" andoid:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="3dp" andoid:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="1dp" andoid:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="1dp" android:clickable="true">
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dog Size" android:id="@+id/sizeDog"/>
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Human Activity" android:id="@+id/activityDog"/>
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Children Behaviour" android:id="@+id/childrenDog"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager android:layout_height="670dp" android:layout_width="416dp"
+                                         android:id="@+id/viewPager"
+                                         andoid:layout_constraintEnd_toEndOf="parent"
+                                         andoid:layout_constraintStart_toStartOf="parent"
+                                         andoid:layout_constraintBottom_toBottomOf="parent"
+                                         android:layout_marginBottom="10dp"
+                                         andoid:layout_constraintTop_toBottomOf="@+id/tabLayout"
+                                         android:layout_marginTop="15dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
