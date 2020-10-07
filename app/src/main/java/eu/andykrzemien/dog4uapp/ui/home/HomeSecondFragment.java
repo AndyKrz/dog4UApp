@@ -126,69 +126,9 @@ public class HomeSecondFragment extends Fragment {
         RadioButton thisButton = (RadioButton) Objects.requireNonNull(getView()).findViewById(checkedId);
         Toast toast = Toast.makeText(context, thisButton.getText(), Toast.LENGTH_SHORT);
         toast.show();
-//        if(checkedId == R.id.miniature) {
-//          Toast.makeText(getContext(), "Dog size about 15cm",
-//              Toast.LENGTH_SHORT).show();
-//        } else if(checkedId == R.id.small) {
-//          Toast.makeText(getContext(), "Dog size about 25cm",2
-//              Toast.LENGTH_SHORT).show();
-//        }else if(checkedId == R.id.medium) {
-//          Toast.makeText(getContext(), "Dog size about 65cm",
-//              Toast.LENGTH_SHORT).show();
-//        }else if(checkedId == R.id.large) {
-//          Toast.makeText(getContext(), "Dog size about 100cm",
-//              Toast.LENGTH_SHORT).show();
-//        }
-//        else if(checkedId == R.id.giant) {
-//          Toast.makeText(getContext(), "Dog size about 125cm",
-//              Toast.LENGTH_SHORT).show();
         }
     });
 
-
-
-//    View.OnClickListener optionOnClickListener = new View.OnClickListener() {
-//      @Override
-//      public void onClick(View v) {
-////    textView.setText("Null");
-//
-//        if((miniature.isChecked()) || (large.isChecked())){
-//          textView.setText("MINIATURE");
-//        }
-//        else if(small.isChecked()){
-//          textView.setText("SMALL");
-//        } else if(medium.isChecked())
-//        {
-//          textView.setText("MEDIUM");
-//        }
-//        else if(large.isChecked()) {
-//          textView.setText("LARGE");
-//        }
-//        else if(giant.isChecked()){
-//          textView.setText("GIANT");
-//        }
-//
-//      }
-//    };
-//
-//miniature.setOnClickListener(optionOnClickListener);
-//small.setOnClickListener(optionOnClickListener);
-//medium.setOnClickListener(optionOnClickListener);
-//large.setOnClickListener(optionOnClickListener);
-//giant.setOnClickListener(optionOnClickListener);
-
-
-//    view.findViewById(R.id.button_home_second).setOnClickListener(new View.OnClickListener() {
-//      @Override
-//      public void onClick(View view) {
-//        NavHostFragment.findNavController(HomeSecondFragment.this)
-//            .navigate(R.id.action_navigation_home_second_to_homeThirdFragment);
-//        Navigation.findNavController(view).navigate(R.id.activityDog);
-//        Navigation.createNavigateOnClickListener(R.id.activityList);
-//        button_home_second.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.activityDog,null));
-//
-//      }
-//    });
   }
 
   @Override

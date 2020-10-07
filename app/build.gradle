@@ -11,6 +11,11 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+        systemProp.http.proxyHost=proxy.company.com
+        systemProp.http.proxyPort=443
+        systemProp.http.proxyUser=userid
+        systemProp.http.proxyPassword=password
+        systemProp.http.auth.ntlm.domain=domain
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

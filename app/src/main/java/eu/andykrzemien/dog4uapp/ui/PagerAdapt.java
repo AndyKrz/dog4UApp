@@ -32,8 +32,8 @@ public class PagerAdapt extends FragmentPagerAdapter{
         return new HomeThirdFragment();
       case 2:
         return new HomeFourthFragment();
-      case 3:
-        return new ReturnToHome();
+//      case 3:
+//        return new ReturnToHome();
       default:
         return null;
     }

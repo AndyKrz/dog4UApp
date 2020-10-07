@@ -31,20 +31,11 @@ public class HomeFragment extends Fragment {
 //        textView.setText(s);
       }
     });
+
+    getInt
     return root;
 
-    // Inflate the layout for this fragment
-//    View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 
-//    Button button_home = (Button) rootView.findViewById(R.id.button_home);
-//    button_home.setOnClickListener(new View.OnClickListener() {
-//      @Override
-//      public void onClick(View v) {
-//        viewPager = (ViewPager) Objects.requireNonNull(getActivity()).findViewById(R.id.viewPager);
-//        viewPager.setCurrentItem(-1);
-//      }
-//    });
-//    return rootView;
 
 
   }
